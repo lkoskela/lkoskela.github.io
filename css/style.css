@@ -1,0 +1,89 @@
+body {
+  margin: 0px;
+}
+a img {
+  border: 0;
+}
+a {
+  color: #25b;
+  text-decoration: none;
+}
+li {
+  max-width: 580px;
+}
+h1, h2, h3, h4 {
+  font-family: Arial, Helvetica, SansSerif;
+  line-height: 110%;
+}
+th, li, td, p, .copyright, .sidebar {
+  font-family: Verdana, Arial, Helvetica, SansSerif;
+  font-size: 11pt;
+  line-height: 160%;
+}
+div.content {
+  width: 920px;
+  margin: 0 auto;
+}
+div.header {
+  padding-top: 16px;
+}
+div.sidebar {
+  float: right;
+  margin: 0px 0px 0px 0px;
+  padding: 16px 0px 10px 10px;
+  width: 200px;
+}
+div.sidebar td {
+  font-size: 12pt;
+  font-weight: bold;
+}
+div.sidebar img {
+   padding:2px;
+   border:1px solid #aaa;
+   background-color:#ddd;
+   margin: 20px;
+}
+h1.title {
+  font-size: 30pt;
+  padding-left: 48px;
+  margin-bottom: 20px;
+}
+h2.subtitle {
+  font-family: Verdana, Arial, Helvetica, SansSerif;
+  font-size: 13pt;
+  font-weight: normal;
+  padding-left: 48px;
+  margin-bottom: 40px;
+}
+div.sections {
+  clear: both;
+}
+div.section {
+  width: 600px;
+  border-top: 1px solid #ddd;
+  padding: 16px 48px 16px 48px;
+  margin-bottom: 32px;
+  text-align: justify; text-justify: newspaper
+}
+h3.section-title {
+  margin: 0px;
+  font-size: 17pt;
+}
+div.copyright {
+  border-top: 1px solid #ddd;
+  font-size: 8pt;
+  color: #999;
+  padding: 4px;
+  text-align: right;
+  margin-top: 16px;
+}
+div.quote {
+  float: right;
+  font-size: 18pt;
+  width: 300px;
+  padding: 0px 20px 0px 20px;
+  border-left: 1px solid #aaa;
+  margin: 16px 0px 16px 20px;
+  font-family: Arial, Helvetica, SansSerif;
+  line-height: 160%;
+}
