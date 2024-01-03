@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PWA Counter</title>
+</head>
+<body>
+    <section id="section-instructions">
+        <p>
+            This is a tiny PWA demonstration application for testing first hand on <i>your</i> device
+            how your browser treats "persistent" IndexedDB data e.g. when you clear your browsing history,
+            don't visit the "app" for more than 7 days (on iOS), and whether adding the "app" to home
+            screen makes a difference.
+        </p>
+    </section>
+    <section id="persistence-mode">
+        <div>
+            <code>Persistence mode: <span id="current-persistence-mode">?</span></code>
+            <button id="request-persistence-button" style="display: none; margin-left: 20px;" type="button">Request persistent mode</button></p>
+        </div>
+        <div><code>Directory:       <span id="persistence-directory"></span></code></div>
+        <div><code>Quota:           <span id="current-storage-quota"></span></code></div>
+        <div><code>Usage:           <span id="current-storage-usage"></span></code></div>
+        <div><code>Available:       <span id="current-storage-available"></span></code></div>
+    </section>
+    <section id="section-counter">
+        <h1>Counter: <span id="counter">0</span></h1>
+        <script src="byte-size.js"></script>
+        <script src="app.js"></script>
+        <code id="messages"></code>
+    </section>
+</body>
+</html>
