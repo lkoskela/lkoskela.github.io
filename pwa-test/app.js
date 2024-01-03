@@ -148,7 +148,7 @@ function initializePersistentMode() {
         console.warn(`This browser doesn't seem to support the Storage API at all? navigator.storage: `, navigator.storage);
     }
     updateStorageQuota();
-    setInterval(updateStorageQuota, 10000);
+    setInterval(updateStorageQuota, 1000);
     setTimeout(updateStorageDirectory, 100);
 }
 
