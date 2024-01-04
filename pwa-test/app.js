@@ -92,6 +92,9 @@ function restartUpdateInterval(db) {
 window.onload = () => initializeApplication();
 
 function initializeApplication() {
+    if (navigator.standalone !== undefined) {
+        console.log(`Running in standalone mode? ${navigator.standalone}`);
+    }
     initializePersistentMode();
     initDB((db) => {
         if (db) {
